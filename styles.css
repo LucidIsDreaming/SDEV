@@ -78,6 +78,7 @@ main {
 
 body {
     background-color: #ecf4f8;
+    position: center;
 }
 
 table tr {
