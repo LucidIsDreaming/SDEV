@@ -39,10 +39,24 @@ header {
     position: center;
     border-radius: 5px;
     margin: 15px 0 25px 0;
-    width: 665px;
+    width: 760px;
     height: 50px;
+    background-color: #3598db;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    text-align: center;
 }
 
+/*header {
+    background-color: #3598db;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    text-align: center;
+}*/
 footer p {
     color: #999999;
     font-family: arial, sans-serif;
@@ -110,15 +124,6 @@ td {
     text-align: left;
     font-size: 13px;
     font-family: Arial, sans-serif;
-}
-
-header {
-    background-color: #3598db;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    padding: 20px;
-    text-align: center;
 }
 
 img[src$="browser-image.jpg"],
