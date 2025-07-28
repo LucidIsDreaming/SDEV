@@ -1,0 +1,171 @@
+/*
+
+CSS rules you may need:
+- font-family
+    - Arial, sans-serif
+- line-height
+- color
+- margin
+- padding
+- background-color
+- border-radius
+- border-left
+- border-bottom
+- margin-top
+- padding-left
+- padding-bottom
+- width
+- height
+- margin-bottom
+- font-size
+
+Pseudo classes you may need:
+- :hover
+- :first-letter
+- :nth-child
+
+*/
+html {
+    padding: 5px 60px 10px 60px;
+}
+
+head {
+    background-color: #ecf4f8;
+}
+
+header {
+    background-color: #0074D9;
+    color: #ffffff;
+    position: center;
+    border-radius: 5px;
+    margin: 15px 0 25px 0;
+    width: 665px;
+    height: 50px;
+}
+
+footer p {
+    color: #999999;
+    font-family: arial, sans-serif;
+    padding: 10px 5px 0px 10px;
+    text-align: center;
+    font-size: 13px;
+}
+
+footer p:first-letter {
+    font-size: 14px;
+    color: #999999;
+}
+
+main {
+    border-radius: 5px;
+    padding: 10px 40px 40px 40px;
+    background-color: #ffffff;
+}
+
+body {
+    background-color: #ecf4f8;
+}
+
+table tr {
+    border-bottom: 1px solid #b9b9b9;
+}
+
+table tr:nth-child(even) {
+    background-color: #ebebeb;
+    color: #000000
+}
+
+table tr:nth-child(odd) {
+    background-color: #fff;
+    color: #000000
+}
+
+table th {
+    background-color: #fff;
+    color: #000000
+}
+
+table {
+    background-color: #f9f9f9;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+table tr:hover {
+    background-color: #d3eaff;
+    color: #1f1f1f;
+}
+
+table th {
+    background-color: #3598db;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+table th,
+tr,
+td {
+    padding: 14px 18px;
+    text-align: left;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #3598db;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    text-align: center;
+}
+
+img[src$="browser-image.jpg"],
+img[src$="server-image.jpg"],
+img[src$="code-image.jpg"] {
+    border-radius: 10px;
+}
+
+
+h2 {
+    border-bottom: 2px solid #3598db;
+    line-height: 22px;
+    border-left: 2px solid #3598db;
+    font-family: Arial, sans-serif;
+    padding: 10px 10px 15px 10px;
+    font-size: 22px;
+    color: #333333;
+    margin-top: 1px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+p::first-letter {
+    font-size: 40px;
+    color: #0074D9;
+    font-weight: bold;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #333333;
+}
+
+section {
+    border-radius: 10px;
+    position: relative;
+    padding: 30px 10px 20px 10px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+    color: #000000;
+    margin: 20px 0px 30px 0px;
+}
