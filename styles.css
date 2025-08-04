@@ -29,14 +29,7 @@ html {
     padding: 5px 60px 10px 60px;
 }
 
-head {
-    background-color: #ecf4f8;
-}
-
 header {
-    background-color: #0074D9;
-    color: #ffffff;
-    position: center;
     border-radius: 5px;
     margin: 15px 0 25px 0;
     width: 760px;
@@ -49,14 +42,6 @@ header {
     text-align: center;
 }
 
-/*header {
-    background-color: #3598db;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    padding: 20px;
-    text-align: center;
-}*/
 footer p {
     color: #999999;
     font-family: arial, sans-serif;
@@ -78,7 +63,6 @@ main {
 
 body {
     background-color: #ecf4f8;
-    position: center;
 }
 
 table tr {
@@ -87,7 +71,7 @@ table tr {
 
 table tr:nth-child(even) {
     background-color: #ebebeb;
-    color: #000000
+    color: #000000;
 }
 
 table tr:nth-child(odd) {
@@ -97,7 +81,7 @@ table tr:nth-child(odd) {
 
 table th {
     background-color: #fff;
-    color: #000000
+    color: #000000;
 }
 
 table {
