@@ -1,0 +1,33 @@
+.bio {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.bio img {
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid var(--accent);
+}
+
+.bio h1 {
+    color: var(--primary);
+    font-size: 2rem;
+}
+
+.bio p {
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .bio {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .bio img {
+        max-width: 200px;
+        margin: auto;
+    }
+}
