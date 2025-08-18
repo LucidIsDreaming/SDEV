@@ -29,8 +29,9 @@ h1 {
     margin-bottom: 1rem;
 }
 
+/* DESKTOP LAYOUT*/
 @media (min-width: 960px) {
-    main {
+    .project main {
         margin-bottom: 0;
         max-width: 1000px;
         margin-left: auto;
