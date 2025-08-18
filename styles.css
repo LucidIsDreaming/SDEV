@@ -1,3 +1,12 @@
+/*UNDERLINE LINKS */
+nav a {
+    text-decoration: underline !important;
+}
+
+nav a:hover {
+    color: var(--accent);
+}
+
 /*CSS VARIABLES */
 :root {
     --primary: #2F3C7E;
@@ -217,4 +226,5 @@ footer {
     }
 
 }
+
 
