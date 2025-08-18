@@ -42,8 +42,9 @@ h1 {
 /* MOBILE LAYOUT */
 @media (max-width: 480px) {
     .resume img {
-        max-width: 70vw;
+        max-width: 40vw;
         height: auto;
+        margin-bottom: 1rem;
     }
 }
 
@@ -74,4 +75,5 @@ h1 {
         max-width: 1100px;
         margin: 0 auto;
     }
+
 }
