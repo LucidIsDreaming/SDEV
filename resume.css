@@ -41,7 +41,8 @@ h1 {
 
 /* MOBILE LAYOUT */
 @media (max-width: 480px) {
-    .resume img {
+    .resume-container img,
+    .resume-card img {
         max-width: 40vw;
         height: auto;
         margin-bottom: 1rem;
@@ -77,3 +78,4 @@ h1 {
     }
 
 }
+
