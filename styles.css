@@ -1,13 +1,10 @@
-/*GOOGLE FONTS*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap');
-
 /*CSS VARIABLES */
 :root {
     --primary: #2F3C7E;
     --accent: #F85E5E;
     --light: #FBEAEB;
     --text: #333;
-    --background: #FFFFFF;
+    --background: #a39c9c;
 }
 
 /*RESET & BASE STYLES*/
@@ -19,7 +16,7 @@
 
 /*BODY BASE*/
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
     background: var(--background);
     color: var(--text);
     line-height: 24px;
@@ -57,7 +54,7 @@ main {
 h1,
 h2,
 h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: sans-serif;
     margin-bottom: 1rem;
     color: var(--primary);
 }
@@ -113,8 +110,8 @@ footer {
 }
 
 .bio img {
-    width: 100%;
-    border-radius: 50%;
+    width: 400px;
+    border-radius: 40%;
     border: 5px solid var(--accent);
 }
 
@@ -150,12 +147,11 @@ footer {
     flex: 1;
 }
 
-/*RESPONSIVE STYLES*/
 
-/* Small screens (mobile) */
+/* MOBILE LAYOUT */
 @media (max-width: 600px) {
     body {
-        font-family: "Poppins", sans-serif;
+        font-family: sans-serif;
         margin: 0;
         padding: 0;
         background: #f9f9f9;
@@ -183,10 +179,7 @@ footer {
         max-width: 200px;
         margin: auto;
     }
-}
 
-/* MOBILE LAYOUT */
-@media (max-width: 768px) {
     .bio-container {
         flex-direction: column;
         text-align: center;
