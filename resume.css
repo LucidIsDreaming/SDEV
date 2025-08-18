@@ -39,18 +39,39 @@ h1 {
     font-size: 0.9rem;
 }
 
-/* MOBILE */
-@media (max-width: 600px) {
+/* MOBILE LAYOUT */
+@media (max-width: 480px) {
     .resume img {
-        max-width: 90vw;
+        max-width: 70vw;
         height: auto;
     }
 }
 
-/* DESKTOP */
-@media (min-width: 601px) {
+/* DESKTOP LAYOUT */
+@media (min-width: 960px) {
     .resume img {
         max-width: 400px;
         height: auto;
+    }
+
+    .resume-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 90px;
+    }
+
+    .resume-card {
+        flex: 1 1 40%;
+        max-width: 45%;
+        background: #f5f5f5;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .resume-card.expertise {
+        flex: 1 1 100%;
+        max-width: 1100px;
+        margin: 0 auto;
     }
 }
