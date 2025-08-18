@@ -1,0 +1,24 @@
+.resume section {
+    margin-bottom: 2rem;
+}
+
+.resume h2 {
+    border-bottom: 2px solid var(--accent);
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.3rem;
+}
+
+.resume ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.resume ul li {
+    background: var(--accent);
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
